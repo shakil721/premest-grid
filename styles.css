@@ -1,0 +1,20 @@
+main {
+  background-color: teal;
+  height: 50vh;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+section .container-1 {
+  border: 2px solid red;
+  background-color: thistle;
+  height: 50px;
+}
+@media (max-width: 682px) {
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
